@@ -4,7 +4,7 @@ import pickle
 
 # Load the trained model
 model = pickle.load(open('ExtraTreesRegressorModel.pkl','rb'))
-#joblib.load('Model.pkl')
+joblib.load('Model.pkl')
 # Load dataset
 df = pd.read_csv('cleaned_car.csv')
 
